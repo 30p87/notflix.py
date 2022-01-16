@@ -10,7 +10,6 @@ def main(query=None, select=None):
 	def notify(_str):
 		print(_str)
 	dmenu = False
-	mpv = False
 	titles = []
 	seedleechs = []
 	sizes = []
@@ -19,8 +18,6 @@ def main(query=None, select=None):
 	if platform == "linux":
 		if which("dmenu"):
 			dmenu = True
-		if which("mpv"):
-			mpv = True
 		if which("notify-send"):
 			def notify(_str):
 				system(f'notify-send "{_str}" -i "NONE"')
@@ -31,6 +28,8 @@ def main(query=None, select=None):
 			query = input("Search torrent: ")
 	if not which("webtorrent"):
 		raise Exception("webtorrent has to be installed on the system")
+	if not which("mpv"):
+		raise Exception("mpv has to be installed on the system")
 	query = query.replace(" ", "+")
 	with get(f"https://1337x.wtf/search/{query}/1/") as r:
 		for i in r.content.decode().splitlines():
@@ -89,7 +88,7 @@ def main(query=None, select=None):
 			else:
 				print(lines)
 				try:
-					select = int(input('Select:'))
+					select = int(input('Select: '))
 				except ValueError:
 					raise ValueError("Value needs to be a number")
 		notify('🔍 Searching Magnet seeds 🧲')
@@ -98,10 +97,7 @@ def main(query=None, select=None):
 		with get(url) as r2:
 			_re = search('magnet:\\?xt=urn:btih:[a-zA-Z0-9]*', r2.content.decode())
 			magnet = _re.string[_re.start():_re.end()]
-		if mpv:
-			system(f'webtorrent {magnet} --mpv')
-		else:
-			system(f'webtorrent {magnet}')
+		system(f'webtorrent {magnet} --mpv')
 		notify('🎥 Enjoy Watching ☺️')
 
 
