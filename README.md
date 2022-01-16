@@ -30,3 +30,21 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
   https://sourceforge.net/projects/mpv-player-windows/  
   Extract and run the updater.bat as admin  
   Copy the mpv.exe in the same directory as the main script (notflix.py)
+
+
+## Linux
+- Python
+  install via your favorite package manager, eg.  
+    - sudo apt install -y python3
+- Requests
+  python -m pip install requests
+- NodeJS & NPM
+  install via your favorite package manager, eg.  
+    - sudo apt install -y npm nodejs
+    - sudo pacman -S npm
+- Webtorrent
+  npm install webtorrent-cli -g
+- MPV
+  install via your favorite package manager, eg.  
+    - sudo apt install -y mpv
+    - sudo pacman -S mpv
