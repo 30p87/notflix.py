@@ -1,3 +1,5 @@
+#!/bin/python3
+
 from requests import get
 from argparse import ArgumentParser
 from sys import platform
@@ -24,6 +26,8 @@ def main(query=None, select=None):
 	if not query:
 		if dmenu:
 			query = popen('dmenu -p "Search Torrent: " <&-').read().strip()
+			if query == "":
+				exit()
 		else:
 			query = input("Search torrent: ")
 	if not which("webtorrent"):
@@ -104,7 +108,7 @@ def main(query=None, select=None):
 if __name__ == "__main__":
 	# Add all the command line arguments
 	argparser = ArgumentParser(description="A notflix adaption written in python.")
-	argparser.add_argument("--query", "-q", help="The string to search for", type=str)
-	argparser.add_argument("--select", "-s", help="The index to use, the first one is mostly good", type=int)
+	argparser.add_argument("-q", "--query", help="The string to search for", type=str)
+	argparser.add_argument("-s", "--select", help="The index to use, the first one is mostly good", type=int)
 	args = argparser.parse_args()												# Parse all args
 	main(args.query, args.select)				# Calls the main function with the args, obviously
