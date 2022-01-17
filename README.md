@@ -42,7 +42,7 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
   install via your favorite package manager, eg.  
     - sudo apt install -y npm nodejs
     - sudo pacman -S npm
-- Webtorrent
+- Webtorrent  
   npm install webtorrent-cli -g
 - MPV
   install via your favorite package manager, eg.  
