@@ -1,5 +1,4 @@
-sudo apt install -y python3 npm nodejs mpv
-sudo pacman -Syu python3 npm mpv
+sudo apt install -y python3 npm nodejs mpv && sudo pacman -Syu python3 npm mpv
 
 python3 -m pip install -U pip
 python3 -m pip install -U requests
