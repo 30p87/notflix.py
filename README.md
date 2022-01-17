@@ -3,8 +3,8 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
 
 
 # Tested for:
-  - Pop!\_OS 21.10
-  - 
+  - Pop!\_OS 21.10 - X11/GNOME
+  - Ubuntu 20.04.03 LTS - X11/GNOME
 
 
 
