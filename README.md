@@ -3,8 +3,8 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
 
 
 # Tested for:
-  - Linux (Pop!\_OS 21.10)
-  - Windows 10
+  - Pop!\_OS 21.10
+  - 
 
 
 
@@ -15,27 +15,9 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
   - nodejs
 - MPV
 
-
-  
-## Windows
-- Python  
-  https://www.python.org/downloads/
-- Requests  
-  py -m pip install requests
-- NodeJS & NPM  
-  https://nodejs.org/en/download/
-- Webtorrent  
-  npm install webtorrent-cli -g
-- MPV  
-  https://sourceforge.net/projects/mpv-player-windows/  
-  Extract and run the updater.bat as admin  
-  Copy the mpv.exe in the same directory as the main script (notflix.py)
-
-
-
-## Linux  
+# Installation
 ### Automatic  
-  curl https://raw.githubusercontent.com/30p87/notflix.py/main/install.sh > /tmp/install-notflix.sh && chmod +x /tmp/install-notflix.sh && /tmp/install-notflix.sh && rm /tmp/install-notflix.sh
+  curl https://raw.githubusercontent.com/30p87/notflix.py/linux/install.sh > /tmp/install-notflix.sh && chmod +x /tmp/install-notflix.sh && /tmp/install-notflix.sh && rm /tmp/install-notflix.sh
 ### Manual  
 - Python
   install via your favorite package manager, eg.  
