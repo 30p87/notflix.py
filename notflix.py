@@ -1,5 +1,3 @@
-#!/bin/python3
-
 from requests import get
 from argparse import ArgumentParser
 from sys import platform
