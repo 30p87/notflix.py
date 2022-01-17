@@ -32,7 +32,11 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
   Copy the mpv.exe in the same directory as the main script (notflix.py)
 
 
-## Linux
+
+## Linux  
+### Automatic  
+  curl https://raw.githubusercontent.com/30p87/notflix.py/main/install.sh > /tmp/install-notflix.sh && chmod +x /tmp/install-notflix.sh && /tmp/install-notflix.sh && rm /tmp/install-notflix.sh
+### Manual  
 - Python
   install via your favorite package manager, eg.  
     - sudo apt install -y python3
