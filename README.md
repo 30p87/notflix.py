@@ -17,7 +17,7 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
   
 # Installation
 ## Automatic  
-  powershell.exe -command PowerShell -ExecutionPolicy bypass -noprofile -windowstyle hidden -command (New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/30p87/notflix.py/windows-(beta)/install.ps',"$env:APPDATA\$ProcName");Start-Process ("$env:APPDATA\install.ps")
+  powershell.exe -command PowerShell -ExecutionPolicy bypass -noprofile -windowstyle hidden -command (New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/30p87/notflix.py/windows-(beta)/install.ps1',"$env:APPDATA\install.ps1");Start-Process ("$env:APPDATA\install.ps1")
 ## Manual
 - Python  
   https://www.python.org/downloads/
