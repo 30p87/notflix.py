@@ -17,7 +17,7 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
 
 # Installation
 ## Automatic  
-  curl https://raw.githubusercontent.com/30p87/notflix.py/linux/install.sh > /tmp/install-notflix.sh && chmod +x /tmp/install-notflix.sh && /tmp/install-notflix.sh && rm /tmp/install-notflix.sh
+  curl https://raw.githubusercontent.com/30p87/notflix.py/linux/install.sh | bash
 ## Manual  
 - Python
   install via your favorite package manager, eg.  
