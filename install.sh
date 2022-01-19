@@ -1,3 +1,5 @@
+#!/bin/bash
+
 apt > /dev/null 2> /dev/null && curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash - && sudo apt install -y nodejs
 # test if apt exists (debian-based) : download the setup instructions of nodejs/nm version 17, and exec them : install nodejs
 # apt only has version <= 10 in the repo, but we need >= 16
