@@ -1,4 +1,4 @@
-apt && curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash - && sudo apt install -y nodejs
+apt > /dev/null 2> /dev/null && curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash - && sudo apt install -y nodejs
 
 sudo apt install -y python3 mpv || sudo pacman -Syu python3 npm mpv
 
