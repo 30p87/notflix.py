@@ -1,4 +1,6 @@
-sudo apt install -y python3 npm nodejs mpv && sudo pacman -Syu python3 npm mpv
+apt && curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash - && sudo apt install -y nodejs
+
+sudo apt install -y python3 mpv || sudo pacman -Syu python3 npm mpv
 
 python3 -m pip install -U pip
 python3 -m pip install -U requests
