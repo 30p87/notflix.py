@@ -94,7 +94,7 @@ def main(query=None, select=None):
 				except ValueError:
 					raise ValueError("Value needs to be a number")
 		notify('🔍 Searching Magnet seeds 🧲')
-		url = links[select]
+		url = links[select-1]
 		url = f'https://1337x.wtf{url}/'
 		with get(url) as r2:
 			_re = search('magnet:\\?xt=urn:btih:[a-zA-Z0-9]*', r2.content.decode())
