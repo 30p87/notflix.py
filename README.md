@@ -17,7 +17,7 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
   
 # Installation
 ## Automatic  
-  powershell.exe -command PowerShell -ExecutionPolicy bypass -noprofile -windowstyle hidden -command (New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/30p87/notflix.py/windows-(beta)/install.ps1',"$env:APPDATA\install.ps1");Start-Process ("$env:APPDATA\install.ps1")
+  powershell.exe -command PowerShell -ExecutionPolicy bypass -noprofile -windowstyle hidden -command (New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/30p87/notflix.py/windows-(beta)/install.ps1'," $Env:USERPROFILE\AppData\Local\Temp\install.ps1");Start-Process ("$Env:USERPROFILE\AppData\Local\Temp\install.ps1")
 ## Manual
 - Python  
   https://www.python.org/downloads/
@@ -29,5 +29,4 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
   npm install webtorrent-cli -g
 - MPV  
   https://sourceforge.net/projects/mpv-player-windows/  
-  Extract and run the updater.bat as admin  
-  Copy the mpv.exe in the same directory as the main script (notflix.py)
+  Extract and copy the mpv.exe in the same directory as the main script (notflix.py)
