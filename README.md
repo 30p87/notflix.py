@@ -32,8 +32,7 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
   npm install webtorrent-cli -g
 - MPV  
   https://sourceforge.net/projects/mpv-player-windows/  
-  Extract and run the updater.bat as admin  
-  Copy the mpv.exe in the same directory as the main script (notflix.py)
+  Extract and copy the mpv.exe in the same directory as the main script (notflix.py)
 
 
 
