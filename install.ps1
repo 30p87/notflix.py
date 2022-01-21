@@ -32,4 +32,3 @@ If ($is -eq $False) {
   $newpath = "$oldpath;$Env:AppData\notflix.py"
   Set-ItemProperty -Path 'Registry::HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Environment' -Name PATH -Value $newpath
 }
-"
