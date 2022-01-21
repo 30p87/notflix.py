@@ -7,3 +7,14 @@ Invoke-WebRequest -Uri https://netcologne.dl.sourceforge.net/project/mpv-player-
 msiexec /qn /l* C:\node-log.txt /i $Env:USERPROFILE\AppData\Local\Temp\nodejs_install.msi
 & "$Env:USERPROFILE\AppData\Local\Temp\7z_install.exe" /S
 & "$env:ProgramFiles\7-Zip\7z.exe" x -o"$Env:USERPROFILE\AppData\Local\Temp\mpv_install" $Env:USERPROFILE\AppData\Local\Temp\mpv_install.7z -r
+
+py -m pip install requests
+
+mkdir $Env:AppData\notflix.py
+
+cp $Env:USERPROFILE\AppData\Local\Temp\mpv_install\mpv.exe $Env:AppData\notflix.py
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/30p87/notflix.py/windows-(beta)/notflix.py -OutFile $Env:AppData\notflix.py\notflix.py
+
+$oldpath = (Get-ItemProperty -Path 'Registry::HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Environment' -Name PATH).path
+$newpath = "$oldpath;$Env:AppData\notflix.py"
+Set-ItemProperty -Path 'Registry::HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Environment' -Name PATH -Value $newpath
