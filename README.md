@@ -17,9 +17,15 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
   
 # Installation
 ## Automatic  
-  - Press WIN+R
-  - Enter:  
-  powershell.exe -command PowerShell -ExecutionPolicy bypass -noprofile -windowstyle hidden -command (New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/30p87/notflix.py/windows-(beta)/install.ps1'," $Env:USERPROFILE\AppData\Local\Temp\install.ps1");Start-Process ("$Env:USERPROFILE\AppData\Local\Temp\install.ps1")
+  - Press WIN
+  - Enter "powershell"
+  - Rightclick on the entry and click "Start as Administratror"
+  - Click 'Yes'
+  - Enter following in the opening window:  
+  Set-ExecutionPolicy Bypass
+  - Enter 'A' for the following question
+  - Then enter the following:  
+  (New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/30p87/notflix.py/windows-(beta)/install.ps1'," $Env:USERPROFILE\AppData\Local\Temp\install.ps1");& "$Env:USERPROFILE\AppData\Local\Temp\install.ps1"
 ## Manual
 - Python  
   https://www.python.org/downloads/
