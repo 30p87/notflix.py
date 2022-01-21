@@ -11,6 +11,8 @@ If ((Test-Path "$Env:USERPROFILE\AppData\Local\Temp\mpv_install") -eq $True) {
 }
 Start-Process "$env:ProgramFiles\7-Zip\7z.exe" "x -o$Env:USERPROFILE\AppData\Local\Temp\mpv_install $Env:USERPROFILE\AppData\Local\Temp\mpv_install.7z -r" -wait
 
+npm install webtorrent-cli -g
+
 py -m pip install -U pip
 py -m pip install requests
 
