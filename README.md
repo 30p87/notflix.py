@@ -5,7 +5,8 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
 # Tested for:
   - Pop!\_OS 21.10 - X11/GNOME
   - Ubuntu 20.04.03 LTS - X11/GNOME
-  - Windows 10
+  - Windows 10 (VM)
+  - MacOS Monterey (12.1) (VM)
 
 
 
@@ -19,39 +20,14 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
 
   
 ## Windows
-### Automatic  
-  powershell.exe -command PowerShell -ExecutionPolicy bypass -noprofile -windowstyle hidden -command (New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/30p87/notflix.py/windows-(beta)/install.ps1',"$env:APPDATA\install.ps1");Start-Process ("$env:APPDATA\install.ps1")
-### Manual
-- Python  
-  https://www.python.org/downloads/
-- Requests  
-  py -m pip install requests
-- NodeJS & NPM  
-  https://nodejs.org/en/download/
-- Webtorrent  
-  npm install webtorrent-cli -g
-- MPV  
-  https://sourceforge.net/projects/mpv-player-windows/  
-  Extract and copy the mpv.exe in the same directory as the main script (notflix.py)
+Look at https://github.com/30p87/notflix.py/tree/windows-(beta)
 
 
 
 ## Linux  
-### Automatic  
-  curl https://raw.githubusercontent.com/30p87/notflix.py/linux/install.sh > /tmp/install-notflix.sh && chmod +x /tmp/install-notflix.sh && /tmp/install-notflix.sh && rm /tmp/install-notflix.sh
-### Manual  
-- Python
-  install via your favorite package manager, eg.  
-    - sudo apt install -y python3
-- Requests
-  python -m pip install requests
-- NodeJS & NPM
-  install via your favorite package manager, eg.  
-    - sudo apt install -y npm nodejs
-    - sudo pacman -S npm
-- Webtorrent  
-  npm install webtorrent-cli -g
-- MPV
-  install via your favorite package manager, eg.  
-    - sudo apt install -y mpv
-    - sudo pacman -S mpv
+Look at https://github.com/30p87/notflix.py/tree/linux
+
+
+
+## MacOS
+Look at https://github.com/30p87/notflix.py/tree/macos-(beta)
