@@ -4,7 +4,7 @@ apt > /dev/null 2> /dev/null && curl -fsSL https://deb.nodesource.com/setup_17.x
 # test if apt exists (debian-based) : download the setup instructions of nodejs/nm version 17, and exec them : install nodejs
 # apt only has version <= 10 in the repo, but we need >= 16
 
-sudo apt install -y python3 mpv || sudo pacman -Syu python3 npm mpv
+sudo apt install -y python3 mpv dmenu || sudo pacman -Syu python3 npm mpv dmenu
 # try to install python and mpv via apt : try to install python, mpv and npm via pacman, as it's probably arch based and the fix version 17 "fix" is not needed
 
 python3 -m pip install -U pip # update pip, to be safe
