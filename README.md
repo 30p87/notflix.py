@@ -34,3 +34,8 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
   install via your favorite package manager, eg.  
     - sudo apt install -y mpv
     - sudo pacman -S mpv
+
+## Optional:
+  - Dmenu  
+    install via your favorite package manager, eg.  
+    - sudo apt install -y dmenu
