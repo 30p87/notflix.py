@@ -1,7 +1,6 @@
 #!/bin/bash
 
-brew install python3 mpv webtorrent-cli dmenu
-brew install --cask xquartz  
+brew install python3 mpv webtorrent-cli
 
 pip3 install -U pip
 pip3 install -U requests
