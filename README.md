@@ -17,14 +17,14 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
 ## Automatic  
   curl "https://raw.githubusercontent.com/30p87/notflix.py/macos-(beta)/install.sh" | bash
 ## Manual  
-- Python
+- Python  
   install via your favorite package manager, eg.  
     - brew install python3
-- Requests
+- Requests  
   pip3 install requests
-- Webtorrent
+- Webtorrent  
   install via your favorite package manager, eg.  
     - brew install webtorrent-cli
-- MPV
+- MPV  
   install via your favorite package manager, eg.  
     - brew install mpv
