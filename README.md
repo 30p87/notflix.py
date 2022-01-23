@@ -29,9 +29,3 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
 - MPV  
   install via your favorite package manager, eg.  
     - brew install mpv
-
-## Optional:
-  - Dmenu  
-    install via your favorite package manager, eg.  
-    - brew install --cask xquartz  
-    - brew install dmenu
