@@ -15,7 +15,8 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
 
 # Installation
 ## Automatic  
-  curl "https://raw.githubusercontent.com/30p87/notflix.py/macos-(beta)/install.sh" | bash
+  curl "https://raw.githubusercontent.com/30p87/notflix.py/macos-(beta)/install.sh" | bash  
+  Note: you maybe have to execute it two times
 ## Manual  
 - Python  
   install via your favorite package manager, eg.  
@@ -28,3 +29,9 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
 - MPV  
   install via your favorite package manager, eg.  
     - brew install mpv
+
+## Optional:
+  - Dmenu  
+    install via your favorite package manager, eg.  
+    - brew install --cask xquartz  
+    - brew install dmenu
