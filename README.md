@@ -3,7 +3,7 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
 
 
 # Tested for:
-  - MacOS Monterey (12.1) VM
+  - MacOS Monterey (12.1) (VM)
 
 
 
