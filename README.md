@@ -19,18 +19,18 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
 ## Automatic  
   curl https://raw.githubusercontent.com/30p87/notflix.py/linux/install.sh | bash
 ## Manual  
-- Python
+- Python  
   install via your favorite package manager, eg.  
     - sudo apt install -y python3
-- Requests
+- Requests  
   python -m pip install requests
-- NodeJS & NPM
+- NodeJS & NPM  
   install via your favorite package manager, eg.  
     - sudo apt install -y npm nodejs
     - sudo pacman -S npm
 - Webtorrent  
   npm install webtorrent-cli -g
-- MPV
+- MPV  
   install via your favorite package manager, eg.  
     - sudo apt install -y mpv
     - sudo pacman -S mpv
