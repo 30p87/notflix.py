@@ -20,14 +20,14 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
 
   
 ## Windows
-Look at [the windows tree](https://github.com/30p87/notflix.py/tree/windows-(beta))
+Look at [the windows branch](https://github.com/30p87/notflix.py/tree/windows-(beta))
 
 
 
 ## Linux  
-Look at [the Linux tree](https://github.com/30p87/notflix.py/tree/linux)
+Look at [the Linux branch](https://github.com/30p87/notflix.py/tree/linux)
 
 
 
 ## MacOS
-Look at [the MacOS tree](https://github.com/30p87/notflix.py/tree/macos-(beta))
+Look at [the MacOS branch](https://github.com/30p87/notflix.py/tree/macos-(beta))
