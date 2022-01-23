@@ -15,7 +15,7 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
 
 # Installation
 ## Automatic  
-  curl https://raw.githubusercontent.com/30p87/notflix.py/macos-(beta)/install.sh | bash
+  curl "https://raw.githubusercontent.com/30p87/notflix.py/macos-(beta)/install.sh" | bash
 ## Manual  
 - Python
   install via your favorite package manager, eg.  
