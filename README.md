@@ -3,8 +3,7 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
 
 
 # Tested for:
-  - Pop!\_OS 21.10 - X11/GNOME
-  - Ubuntu 20.04.03 LTS - X11/GNOME
+  - MacOS Monterey (12.1) VM
 
 
 
@@ -12,25 +11,20 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
 - Python
   - requests
 - webtorrent-cli
-  - nodejs
 - MPV
 
 # Installation
 ## Automatic  
-  curl https://raw.githubusercontent.com/30p87/notflix.py/linux/install.sh | bash
+  curl https://raw.githubusercontent.com/30p87/notflix.py/macos-(beta)/install.sh | bash
 ## Manual  
 - Python
   install via your favorite package manager, eg.  
-    - sudo apt install -y python3
+    - brew install python3
 - Requests
-  python -m pip install requests
-- NodeJS & NPM
+  pip3 install requests
+- Webtorrent
   install via your favorite package manager, eg.  
-    - sudo apt install -y npm nodejs
-    - sudo pacman -S npm
-- Webtorrent  
-  npm install webtorrent-cli -g
+    - brew install webtorrent-cli
 - MPV
   install via your favorite package manager, eg.  
-    - sudo apt install -y mpv
-    - sudo pacman -S mpv
+    - brew install mpv
