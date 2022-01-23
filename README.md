@@ -38,4 +38,5 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
 ## Optional:
   - Dmenu  
     install via your favorite package manager, eg.  
-    - sudo apt install -y dmenu
+    - sudo apt install -y dmenu  
+    - sudo pacman -S dmenu
