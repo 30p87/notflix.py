@@ -8,6 +8,7 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
 
 
 # Dependencies:
+- Brew
 - Python
   - requests
 - webtorrent-cli
