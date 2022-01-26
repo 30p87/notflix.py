@@ -1,5 +1,9 @@
 #!/bin/bash
 
+if [[ "$(which brew)" == "" ]]; then
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
+
 brew install python3 mpv webtorrent-cli
 
 pip3 install -U pip
