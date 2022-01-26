@@ -18,6 +18,9 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
   curl "https://raw.githubusercontent.com/30p87/notflix.py/macos-(beta)/install.sh" | bash  
   Note: you maybe have to execute it two times
 ## Manual  
+- Brew  
+  install via the official way  
+    - /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 - Python  
   install via your favorite package manager, eg.  
     - brew install python3
