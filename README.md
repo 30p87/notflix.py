@@ -26,6 +26,7 @@ A rewrite of [bugswriters](https://www.youtube.com/results?search_query=bugwrite
   - Enter 'A' for the following question
   - Then enter the following:  
   (New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/30p87/notflix.py/windows-(beta)/install.ps1'," $Env:USERPROFILE\AppData\Local\Temp\install.ps1");& "$Env:USERPROFILE\AppData\Local\Temp\install.ps1"
+  - Note: You probably have to execute this twice
 ## Manual
 - Python  
   https://www.python.org/downloads/
